@@ -1,0 +1,3 @@
+main:
+  pattern: /
+  controller: App:Main:index

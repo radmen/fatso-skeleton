@@ -1,0 +1,2 @@
+\Silex\Provider\TwigServiceProvider:
+  twig.path: ../view
