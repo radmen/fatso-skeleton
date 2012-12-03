@@ -7,4 +7,5 @@ $app->register(new \Fatso\Provider\FatsoServiceProdiver(), array(
   'env.host' => $_SERVER['HTTP_HOST'],
 ));
 
-$app['bootstrap']->runApplication();
+$bootstrap = new \Fatso\Bootstrap($app);
+$bootstrap->runApplication();
