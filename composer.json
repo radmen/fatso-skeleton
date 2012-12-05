@@ -11,5 +11,19 @@
             "": "src"
         }
     },
-    "minimum-stability": "dev"
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-package-install": [
+            "Fatso\\Composer\\ScriptHandler::install"
+        ],
+        "post-update-cmd": [
+            "Fatso\\Composer\\ScriptHandler::install"
+        ],
+        "pre-package-uninstall": [
+            "Fatso\\Composer\\ScriptHandler::remove"
+        ]
+    }
 }

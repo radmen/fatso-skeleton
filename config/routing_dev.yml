@@ -1,0 +1,3 @@
+main:
+  pattern: /
+  controller: Acme:Main:index

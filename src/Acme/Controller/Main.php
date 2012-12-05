@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace Acme\Controller;
 
 use Silex\Application;
 
