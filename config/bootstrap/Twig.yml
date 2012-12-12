@@ -1,2 +1,3 @@
 \Silex\Provider\TwigServiceProvider:
-  twig.path: ../view
+  options: ~
+  extender: \App\Provider\TwigExtender::setNamespaces
